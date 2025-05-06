@@ -19,9 +19,9 @@ public class MessageManager
     {
         return messages.FirstOrDefault(m => m.id == id);
     }
-    public void AddMessage(Message message)
+    public void AddMessage(MessageDTO message)
     {
-        message.id = messages.Count > 0 ? messages.Max(m => m.id) + 1 : 1;
-        messages.Add(message);
+        int message_id = messages.Count > 0 ? messages.Max(m => m.id) + 1 : 1;
+        messages.Add(new Message(message_id, message.user, message.text));
     }
 }

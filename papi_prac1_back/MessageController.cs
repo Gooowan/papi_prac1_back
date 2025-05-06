@@ -1,8 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 
 namespace papi_prac1_back;
 
@@ -36,9 +32,9 @@ public class MessageController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AddMessage([FromBody] Message message)
+    public IActionResult AddMessage([FromBody] MessageDTO message)
     {
         _messageManager.AddMessage(message);
-        return CreatedAtAction(nameof(GetMessage), new { id = message.id }, message);
+        return Ok("Message added successfully.");
     }
 }
