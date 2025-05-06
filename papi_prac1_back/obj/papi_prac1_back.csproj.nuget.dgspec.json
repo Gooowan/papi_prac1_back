@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bunjee/RiderProjects/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj": {}
+    "/Users/daviddavid/Desktop/Papi/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj": {}
   },
   "projects": {
-    "/Users/bunjee/RiderProjects/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj": {
+    "/Users/daviddavid/Desktop/Papi/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bunjee/RiderProjects/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj",
+        "projectUniqueName": "/Users/daviddavid/Desktop/Papi/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj",
         "projectName": "papi_prac1_back",
-        "projectPath": "/Users/bunjee/RiderProjects/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj",
-        "packagesPath": "/Users/bunjee/.nuget/packages/",
-        "outputPath": "/Users/bunjee/RiderProjects/papi_prac1_back/papi_prac1_back/obj/",
+        "projectPath": "/Users/daviddavid/Desktop/Papi/papi_prac1_back/papi_prac1_back/papi_prac1_back.csproj",
+        "packagesPath": "/Users/daviddavid/.nuget/packages/",
+        "outputPath": "/Users/daviddavid/Desktop/Papi/papi_prac1_back/papi_prac1_back/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/bunjee/.nuget/NuGet/NuGet.Config"
+          "/Users/daviddavid/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

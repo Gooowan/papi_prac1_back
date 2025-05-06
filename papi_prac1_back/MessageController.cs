@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace papi_prac1_back;
 
 [ApiController]
-[Route("[controller]")]
+[Route("messages")]
 public class MessageController : ControllerBase
 {
     private readonly MessageManager _messageManager;
