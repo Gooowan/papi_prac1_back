@@ -13,6 +13,7 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.MapGet("/", () => "API is running");
+app.UseCors("AllowAll");
 
 app.MapControllers();
 
